@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book Appointment — Srifix Studios</title>
+<meta name="description" content="Book a free 30-minute discovery call with Srifix Studios to discuss your branding, web or growth project.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="preloader-logo">SRIFIX <span style="color:var(--highlight)">·</span> STUDIOS</div>
+    <div class="preloader-tag">Crafting Premium Digital Experiences</div>
+    <div class="preloader-bar"><span></span></div>
+  </div>
+
+  <!-- Ambient background -->
+  <div class="aurora"><span class="a1"></span><span class="a2"></span><span class="a3"></span></div>
+  <div class="grain"></div>
+  <div class="cursor-glow"></div>
+  <!-- Navigation -->
+  <div class="nav-wrap">
+    <nav class="nav">
+      <a href="index.html" class="nav-logo"><span class="mark"></span>Srifix Studios</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="nav-cta">
+        <a href="contact.html" class="btn btn-ghost">Contact</a>
+        <a href="book-appointment.html" class="btn btn-primary magnetic">Book a Call</a>
+      </div>
+      <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    </nav>
+  </div>
+
+  <div class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="contact.html">Contact</a>
+    <a href="book-appointment.html" class="btn btn-highlight">Book a Call</a>
+  </div>
+  <main>
+
+    <section class="page-hero" style="padding-bottom:60px;">
+      <div class="container">
+        <span class="breadcrumb reveal"><a href="index.html">Home</a> / <span>Book Appointment</span></span>
+        <span class="eyebrow reveal" style="margin-top:20px; display:block;">Book a call</span>
+        <h1 class="reveal reveal-delay-1">Let's talk about<br><span class="text-gradient">your next project.</span></h1>
+        <p class="reveal reveal-delay-2">30 minutes with a senior strategist — no sales script, just a real
+          conversation about what you're building and whether we're the right fit.</p>
+      </div>
+    </section>
+
+    <section style="padding-top:0;">
+      <div class="container">
+        <div class="contact-grid">
+
+          <!-- Calendar -->
+          <div class="glass-card cal-wrap reveal">
+            <div class="cal-head">
+              <h4>Select a date</h4>
+              <div class="cal-nav">
+                <button class="cal-prev" aria-label="Previous month"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg></button>
+                <button class="cal-next" aria-label="Next month"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg></button>
+              </div>
+            </div>
+            <div class="cal-grid">
+              <div class="cal-dow">Sun</div><div class="cal-dow">Mon</div><div class="cal-dow">Tue</div>
+              <div class="cal-dow">Wed</div><div class="cal-dow">Thu</div><div class="cal-dow">Fri</div><div class="cal-dow">Sat</div>
+            </div>
+            <h4 style="font-size:14px; margin-bottom:14px; color:var(--gray);">Available time slots (IST)</h4>
+            <div class="slot-row">
+              <button type="button" class="slot">10:00 AM</button>
+              <button type="button" class="slot">11:30 AM</button>
+              <button type="button" class="slot">2:00 PM</button>
+              <button type="button" class="slot">3:30 PM</button>
+              <button type="button" class="slot">5:00 PM</button>
+              <button type="button" class="slot">6:30 PM</button>
+            </div>
+          </div>
+
+          <!-- Form -->
+          <div class="glass-card form-panel reveal reveal-delay-1">
+            <h3 style="font-size:22px; margin-bottom:6px;">Your details</h3>
+            <p style="color:var(--gray); font-size:14px; margin-bottom:28px;">We'll send a calendar invite and video link to your email.</p>
+            <form data-fake-submit>
+              <div class="form-row">
+                <div class="field"><label>Full name</label><input type="text" placeholder="Jordan Smith" required></div>
+                <div class="field"><label>Email</label><input type="email" placeholder="you@company.com" required></div>
+              </div>
+              <div class="form-row">
+                <div class="field"><label>Company</label><input type="text" placeholder="Company name"></div>
+                <div class="field"><label>Phone</label><input type="tel" placeholder="+91 12345 67890"></div>
+              </div>
+              <div class="field">
+                <label>Service interested in</label>
+                <select>
+                  <option>Branding</option>
+                  <option>Web Design &amp; Development</option>
+                  <option>SEO &amp; Growth</option>
+                  <option>Google / Meta Ads</option>
+                  <option>Social Media Marketing</option>
+                  <option>AI Solutions</option>
+                  <option>Something else</option>
+                </select>
+              </div>
+              <div class="field">
+                <label>Tell us about your project</label>
+                <textarea placeholder="A sentence or two about what you're building and your timeline..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-highlight" style="width:100%; justify-content:center;">Confirm appointment</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">What to expect</span>
+          <h2>A relaxed, useful 30 minutes.</h2>
+        </div>
+        <div class="value-grid">
+          <div class="glass-card reveal" style="padding:28px;">
+            <div class="orbit" style="margin-bottom:16px;"></div>
+            <h4 style="font-size:16px; margin-bottom:8px;">We listen first</h4>
+            <p style="font-size:14px; color:var(--gray);">You walk us through your goals, brand and current challenges.</p>
+          </div>
+          <div class="glass-card reveal reveal-delay-1" style="padding:28px;">
+            <div class="orbit" style="margin-bottom:16px;"></div>
+            <h4 style="font-size:16px; margin-bottom:8px;">Honest fit check</h4>
+            <p style="font-size:14px; color:var(--gray);">We'll tell you plainly if we're the right studio for what you need.</p>
+          </div>
+          <div class="glass-card reveal reveal-delay-2" style="padding:28px;">
+            <div class="orbit" style="margin-bottom:16px;"></div>
+            <h4 style="font-size:16px; margin-bottom:8px;">Next steps</h4>
+            <p style="font-size:14px; color:var(--gray);">If it's a fit, you'll get a written proposal within 48 hours.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo"><span class="mark"></span>Srifix Studios</a>
+          <p>A premium creative &amp; digital marketing studio helping ambitious brands design, build and grow.</p>
+          <div class="footer-social" style="margin-top:22px;">
+            <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+            <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 9H2v13h4V9zM4 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM22 22v-7a5 5 0 0 0-5-5c-1.5 0-2.7.7-3.5 1.8V10H9v12h4v-7a2 2 0 1 1 4 0v7h4z"/></svg></a>
+            <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M22 5.9c-.7.3-1.5.6-2.3.7.8-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1a4.1 4.1 0 0 0-7 3.7A11.6 11.6 0 0 1 3.4 4.6a4.1 4.1 0 0 0 1.3 5.5c-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.6 3.3 4a4.2 4.2 0 0 1-1.9.1 4.1 4.1 0 0 0 3.8 2.9A8.2 8.2 0 0 1 2 18.4a11.6 11.6 0 0 0 6.3 1.8c7.5 0 11.7-6.3 11.7-11.7v-.5c.8-.6 1.5-1.3 2-2.1z"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Studio</h4>
+          <a href="about.html">About Us</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <a href="services.html">Branding</a>
+          <a href="services.html">Web Design &amp; Dev</a>
+          <a href="services.html">SEO &amp; Ads</a>
+          <a href="services.html">AI Solutions</a>
+        </div>
+        <div class="footer-col">
+          <h4>Get in touch</h4>
+          <a href="mailto:hello@srifixstudios.com">hello@srifixstudios.com</a>
+          <a href="tel:+911234567890">+91 12345 67890</a>
+          <a href="book-appointment.html">Book a Call →</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Srifix Studios. All rights reserved.</span>
+        <span>Designed &amp; built by Srifix Studios</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
